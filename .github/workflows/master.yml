@@ -17,4 +17,4 @@ jobs:
         server: ftp.ku.ac.bd
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server_dir: /public_html/production
+        
