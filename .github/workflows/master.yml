@@ -14,7 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: ftp.ku.ac.bd
+        server: production.ku.ac.bd
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         
